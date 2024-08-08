@@ -56,6 +56,11 @@ nav {
     margin: 0 200px;
 }
 
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
 nav ul {
     display: flex;
     align-items: center;
