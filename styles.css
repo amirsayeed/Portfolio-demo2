@@ -183,3 +183,13 @@ footer textarea {
     margin-bottom: 24px;
     border: none;
 }
+
+@media screen and (max-width:576px) {
+    .skills-con {
+        flex-direction: column;
+    }
+
+    .sec-des {
+        padding: 20px;
+    }
+}
