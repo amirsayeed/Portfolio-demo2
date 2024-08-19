@@ -162,9 +162,10 @@ main section {
 }
 
 footer {
-    padding: 130px 230px;
+    padding: 130px 200px;
     display: flex;
     gap: 100px;
+    background-color: #FFF8F3;
 }
 
 .footer-column {
@@ -185,11 +186,35 @@ footer textarea {
 }
 
 @media screen and (max-width:576px) {
-    .skills-con {
+
+    .skills-con,
+    .res-con,
+    footer {
         flex-direction: column;
     }
 
     .sec-des {
         padding: 20px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    footer input[type="text"],
+    footer input[type="email"],
+    footer textarea {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:960px) {
+
+    footer {
+        padding: 30px;
     }
 }
