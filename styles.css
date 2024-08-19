@@ -186,18 +186,39 @@ footer textarea {
 }
 
 @media screen and (max-width:576px) {
+    .head {
+        background-image: none;
+    }
 
+    nav,
+    nav ul,
+    .basic,
     .skills-con,
     .res-con,
+    .details,
     footer {
         flex-direction: column;
     }
 
-    .sec-des {
+    nav ul {
+        gap: 10px;
+    }
+
+    .btn-prm {
+        margin-bottom: 15px;
+    }
+
+    .basic .basic-img {
+        width: 100%;
+    }
+
+    .sec-des,
+    .basic {
         padding: 20px;
     }
 
-    footer {
+    footer,
+    .about {
         padding: 10px;
     }
 
@@ -216,5 +237,9 @@ footer textarea {
 
     footer {
         padding: 30px;
+    }
+
+    .btn-prm {
+        margin-bottom: 15px;
     }
 }
